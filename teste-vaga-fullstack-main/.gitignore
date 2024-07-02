@@ -1,0 +1,26 @@
+.vscode
+.env
+
+# server app
+server/node_modules
+server/dist
+server/.env
+
+# web app
+web/node_modules
+web/.pnp
+web/.pnp.js
+web/.yarn/install-state.gz
+web/coverage
+web/.next/
+web/out/
+web/build
+web/.DS_Store
+web/*.pem
+web/npm-debug.log*
+web/yarn-debug.log*
+web/yarn-error.log*
+web/.env*.local
+web/.vercel
+web/*.tsbuildinfo
+web/next-env.d.ts

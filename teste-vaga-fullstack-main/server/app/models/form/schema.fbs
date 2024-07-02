@@ -1,0 +1,36 @@
+table File {
+  nrInst: int;
+  nrAgencia: int;
+  cdClient: int;
+  nmClient: string;
+  nrCpfCnpj: string;
+  nrContrato: int;
+  dtContrato: string;
+  qtPrestacoes: int;
+  vlTotal: string;
+  cdProduto: int;
+  dsProduto: string;
+  cdCarteira: int;
+  dsCarteira: string;
+  nrProposta: int;
+  nrPresta: int;
+  tpPresta: string;
+  nrSeqPre: int;
+  dtVctPre: string;
+  vlPresta: string;
+  vlMora: string;
+  vlMulta: string;
+  vlOutAcr: string;
+  vlIof: string;
+  vlDescon: string;
+  vlAtual: string;
+  idSituac: string;
+  idSitVen: string;
+  sitVal: bool;
+}
+
+table Files {
+  records: [File];
+}
+
+root_type Files;
